@@ -1,0 +1,52 @@
+.modal-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.6);
+}
+
+.modal-root {
+  display: flex;
+  flex-direction: column;
+  border: 9px solid rgba(0, 0, 0, .2);
+  background-color:#EE9A4D;
+}
+
+.modal-header {
+  color: #49413F;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 500px;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.modal-body {
+  padding: 1rem;
+  color: #49413F;
+  font-size: 50px;
+}
+.modal-body h1{
+  padding: 1rem;
+
+  text-align: center;
+}
+
+
+.close-btn {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2;
+  cursor: pointer;
+}
+.close-btn :hover {
+  font-weight: 800;
+}
